@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Страничка Магазина</title>
+	<link rel="stylesheet" href="css/slider.css">
+	<link rel="stylesheet" type="text/css" href="css/shop.css">
+	<link href="css/accordion.css" rel="stylesheet">
+</head>
+<body class = "body">
+
+	<header class="menu">
+		<div class="container container__header">
+		<div class="container_menu">
+			<nav class="navi">
+		<button class="main_title">Меню</button>
+		<div class="burger" onclick="burderClick()">
+			<div class="burger__line burger__line_1"></div>
+			<div class="burger__line burger__line_2"></div>
+			<div class="burger__line burger__line_3"></div>
+		</div>
+			<ul class="menu__navi">
+				<li class="nav__item">piv</li>
+				<li class="nav__item">pav</li>
+				<li class="nav__item">paw</li>
+		</ul>
+</nav>
+<div class="menuu">
+	<input class="burger-checkbox"type="checkbox" id="burger-checkbox">
+	<label class="burger-1"for="burger-checkbox">
+	</label>
+	<ul class="menu__list">
+		<li></li>
+			<a class="menu__item"href="#">team</a>
+
+		<li></li>
+
+			<a class="menu__item"href="#">team</a>
+		<li></li>
+		
+			<a class="menu__item"href="#">team</a>
+	</ul>
+</div>
+		<ul class="menu__list">
+			<li class="menu__item">Вход</li>
+			<li class="menu__item">Главная</li>
+			<li class="menu__item">Корзина</li>
+		</ul>
+		<img src="C:\logo/Tiger.PNG" class = "logo">
+		<ul class="theme__list">
+			<li class="theme__item">
+		<div class="theme__white" onclick="choiceWhite()"></div>
+			</li>
+			<li class="theme__item">
+				<div class="theme__dark" onclick="choiceDark()"></div>
+			</li>
+		</ul>
+		</div>
+	</header>
+
+
+	<section class="shop">
+		<div class="container container__shop">
+		<h2 class="shop__title">Компы</h2>
+		<ul class="shop__list">
+			<li class="shop__item">
+				<h3 class="shop__item_title">Compot</h3>
+				<img class="shop__img" src="https://bgr.com/wp-content/uploads/2015/05/pc-gamer.jpg?quality=82&strip=all">
+				<p class="shop__text">3000$</p>
+				<button id="btn1" class="shop__btn">Купить</button>
+			</li>
+			<li class="shop__item">
+				<h3 class="shop__item_title">Imbulya</h3>
+				<img class="shop__img" src="https://cgbmyski.ru/wp-content/uploads/0/1/1/011fd2dc21e9f0f9da60cb671b9f95a5.jpeg">
+				<p class="shop__text">0$</p>
+				<button class="shop__btn">Забрать(для малоимущих)</button>
+			</li>
+			<li class="shop__item">
+				<h3 class="shop__item_title">Zdorovyak</h3>
+				<img class="shop__img" src="https://kopiberi.ru/uploads/images/feature_image/enthoo-elite-flagship.jpg">
+				<p class="shop__text">1000$</p>
+				<button class="shop__btn ">Купить</button>
+			</li>
+		</ul>
+		</div>
+		<div class="triangle">
+		</div>
+	</section>
+	<section class="slider__shop">
+		<div class="container">
+			<div class="itc-slider" data-slider="itc-slider">
+  <div class="itc-slider-wrapper">
+    <div class="itc-slider-items">
+      <div class="itc-slider-item">
+        <img src="https://hyperpc.ru/images/product/cyber/gallery/black/hyperpc-cyber-black-build-photo-01.jpg">
+      </div>
+      <div class="itc-slider-item">
+        <img src="http://lavrlombard.ru/images/cms/data/dino_pc_magmadon_gtx_750_ti.jpg">
+      </div>
+      <div class="itc-slider-item">
+        <img src="http://netrinoimages.s3.eu-west-2.amazonaws.com/2016/03/01/406104/139636/vintage_old_desktop_pc_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_1640239_o.jpg">
+      </div>
+    </div>
+  </div>
+  <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+  <button class="itc-slider-btn itc-slider-btn-prev"></button>
+  <button class="itc-slider-btn itc-slider-btn-next"></button>
+</div>
+		</div>
+	</section>
+
+	<section class="my__accordion">
+	<div class="container">
+		<div class="accordion" id="accordion-1">
+  <div class="accordion__item accordion__item_show">
+    <div class="accordion__header">
+      Google map
+    </div>
+    <div class="accordion__body">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25219.842751145847!2d92.9093697030074!3d56.03356080884361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5cd7af0f663d6261%3A0x3be4c1059e7ca29f!2z0KHQsNC00Ysg0LzQtdGH0YLRiw!5e0!3m2!1sru!2sru!4v1699884986181!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="accordion__item">
+    <div class="accordion__header">
+      Yandex map
+    </div>
+    <div class="accordion__body">
+    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Afa705f0d2e6669b937cdff538a795017b38e86f1b237c4d457189040f8f7305e&amp;source=constructor" width="675" height="528" frameborder="0"></iframe>
+    </div>
+  </div>
+  
+</div>
+	</div>
+
+	<div class="accordion" id="accordion-1">
+  
+</div>
+
+	</section>
+	<script src ="js/burger.js"></script>
+	<script src="js/slider.js"></script>
+<script type="text/javascript" src="js/shop.js"></script>
+<script type="text/javascript" src="js/theme.js"></script>
+<script type="text/javascript" src="js/menu.js"></script>
+<script src="js/accordion.js"></script>
+</body>
+</html>
